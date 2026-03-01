@@ -106,14 +106,14 @@ class _VangtiChaiHomePageState extends State<VangtiChaiHomePage> {
                     flex: 1, // Right column takes the right half
                     child: Column(
                       children: [
-                        // Amount box is made smaller
+                        // Amount box 
                         Expanded(
-                          flex: 2, // Amount display is smaller
+                          flex: 2, // Amount display 
                           child: _buildAmountDisplay(),
                         ),
-                        // Keypad is made bigger
+                        // Keypad 
                         Expanded(
-                          flex: 3, // Keypad is bigger
+                          flex: 3, // Keypad 
                           child: _buildNumericKeypad(),
                         ),
                       ],
